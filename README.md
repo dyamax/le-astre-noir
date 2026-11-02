@@ -20,7 +20,7 @@ The unnumbered [`versions/backup`](./versions/backup/) folder is an archived sna
 
 ## Browse the versions
 
-Open a version directly by adding `/versions/<version>/` to the site's URL, replacing `<version>` with `backup`, `v1`, `v2`, `v3`, or `v4`. For example, use `/versions/v1/` to open version 1 or `/versions/backup/` to open the backup.
+Open a version directly by adding `/<version>` to the site's URL, replacing `<version>` with `backup`, `v1`, `v2`, `v3`, or `v4`. For example, use `/v1` to open first prototype or `/backup` to open the main version backup.
 
 - [Current presentation](./index.html)
 - [Version 1](./versions/v1/README.md)
