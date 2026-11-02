@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=montserrat@1&f[]=panchang@1&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=boska@2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+    <script type="module" src="src/main.js"></script>
+    <title>Three.js Project</title>
+    </head>
+    <body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script> -->
+
+      <!-- <div class="loading" id="js-loader"><div class="loader"></div></div> -->
+      <canvas id="c" style="position: fixed; z-index: 0;"></canvas>
+      <div id="bg" style="width: 100%; height: 100%; position: fixed; z-index: 0;"></div>
+      <div class="hero">
+        <div class="nav">
+          <div class="logo-menu">
+            <div class="logo">
+              <a href="#">chronos</a>
+            </div>
+            <div class="burger-menu">
+              <a href="#menu">
+                <img src="src/assets/sort.png" alt="menu-bar">
+              </a>
+            </div>
+          </div>
+          <div class="pages">
+            <div>
+              <a href="#">watches</a>
+              <a href="#">waranthy and services</a>
+              <a href="#">stores</a>
+            </div>
+          </div>
+          <div class="opt-icon">
+            <div class="options">
+              <div class="opt-dropdown">
+                <div>
+                  $$$
+                  <img src="src/assets/down-arrow.png" alt="down-arrow">
+                </div>
+                <div>
+                  lang
+                  <img src="src/assets/down-arrow.png" alt="down-arrow">
+                </div>
+              </div>
+            </div>
+            <div class="icons-menu">
+              <a href="#favorite">
+                <img src="src/assets/favorite.png" alt="favorite">
+              </a>
+              <a href="#user">
+                <img src="src/assets/user.png" alt="user-icon">
+              </a>
+              <a href="#cart">
+                <img src="src/assets/shopping-bag.png" alt="cart">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mcontext">
+          <div class="stockstat">
+            <div>limited</div>
+            <div>available</div>
+          </div>
+          <div class="wcontext">
+            <div>
+              <p>series 0001</p>
+              <p>timeless elegance, darkness refined, light defied</p>
+              <button>get inspired</button>
+            </div>
+          </div>
+        </div>
+        <div class="navlr">
+          <div class="counter">
+            <div>series</div>
+            <div>
+              <div>0</div>
+              <div>0</div>
+              <div>0</div>
+              <div>1</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="quote">"Elegance <br> <mark>In</mark> <br> Shadows."</div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.fog.min.js"></script>
+      <script>
+        VANTA.FOG({
+          el: "#bg",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          highlightColor: 0xffffff,
+          midtoneColor: 0x5f5a87,
+          lowlightColor: 0x181831,
+          baseColor: 0x0,
+          blurFactor: 0.90,
+          speed: .5,
+          zoom: 0.40
+        })
+      </script>
+    </body>
+</html>
