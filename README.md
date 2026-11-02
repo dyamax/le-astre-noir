@@ -16,14 +16,16 @@ The website explores the concept across four numbered versions. The root page is
 - **v3:** Builds on the extended presentation with a working “get inspired” journey and a more developed flow through the product and brand story. Like v2, its collection carousel still uses generic card labels; unlike v4, it has no opening loading screen and keeps more of the page's navigation and settings visible.
 - **v4:** The most curated numbered version: it adds an opening loading screen and replaces generic collection labels with product-themed titles and descriptions. Compared with the root page, its main distinction is that loading introduction; compared with v3, its collection feels more fully written while secondary navigation and settings are tucked away.
 
-The unnumbered [`versions/backup`](./versions/backup/) folder is an archived snapshot, not an additional numbered version.
+The unnumbered [`versions/backup`](./backup/) folder is an archived snapshot, not an additional numbered version.
 
 ## Browse the versions
 
 Open a version directly by adding `/<version>` to the site's URL, replacing `<version>` with `backup`, `v1`, `v2`, `v3`, or `v4`. For example, use `/v1` to open first prototype or `/backup` to open the main version backup.
 
 - [Current presentation](./index.html)
-- [Version 1](./versions/v1/README.md)
-- [Version 2](./versions/v2/README.md)
-- [Version 3](./versions/v3/README.md)
-- [Version 4](./versions/v4/README.md)
+- [Version 1](./v1/README.md)
+- [Version 2](./v2/README.md)
+- [Version 3](./v3/README.md)
+- [Version 4](./v4/README.md)
+  
+- [3D Model Presentation](model-presentation.jpeg)
